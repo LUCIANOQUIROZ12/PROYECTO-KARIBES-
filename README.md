@@ -1,4 +1,4 @@
-# 🌴 Karibe'S Resort Internacional | Plataforma de Gestión y Reservas
+<img width="1313" height="627" alt="image" src="https://github.com/user-attachments/assets/9e3282ef-06c7-4ca9-a862-9039c4f7897d" /># 🌴 Karibe'S Resort Internacional | Plataforma de Gestión y Reservas
 
 ![PHP](https://img.shields.io/badge/PHP-8.0+-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -36,9 +36,37 @@ Este proyecto fue construido siguiendo estrictos estándares de ingeniería de s
 * **Prevención de Session Hijacking:** Cierre de sesión absoluto con destrucción de variables, archivos de servidor y cookies de navegador (`setcookie` expiry).
 * **Anti-Suicidio Digital:** Lógica que impide que el SuperAdmin degrade sus propios permisos por error durante la edición de su perfil.
 
----
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 2 Preparar el entorno:
 
-Desarrollado por
+* Coloca el proyecto en la carpeta de tu servidor local (ej. htdocs en XAMPP o www en MAMP).
+
+## 3 Base de Datos:
+
+* Crea una base de datos en MySQL/phpMyAdmin llamada karibesresort_sistemadb.
+
+* Importa el archivo proporcionado karibesresort_sistemaDB.sql para generar la estructura y la data inicial.
+
+## 4 Configuración de Conexión:
+
+* Abre config/conexion.php y verifica que las credenciales ($user, $password, $dbname) coincidan con tu entorno local.
+
+## 5 Acceso al Sistema:
+
+* Front-End: http://localhost/tu-carpeta/index.php
+
+* Panel Administrativo: http://localhost/tu-carpeta/admin/login.php
+
+* Credenciales por defecto: - Usuario: admin
+
+    * Contraseña: Karibes2026* (Recomendado cambiar inmediatamente tras el primer inicio de sesión).
+
+
+
+
+
+
+👨‍💻 Desarrollado por
 [Luciano Quiroz Gonzales]
 Arquitecto de Software & Desarrollador Full-Stack
 
